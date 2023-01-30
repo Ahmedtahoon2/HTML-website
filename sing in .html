@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <html lang="en" dir="ltr">
+    <title> Sing in </title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sing in</h1>
+    <form action="" method="GET" target="_blank">
+        <div>
+            <label>Username</label>
+            <input type="text" required placeholder="Username" name="un" autofocus >
+            <input type="hidden">
+        </div>
+        <br>
+        <div>
+            <label>password</label>
+            <input type="password" required placeholder="Password" name="pass" min="10" max="20">  
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" required placeholder="Your Email" name="mail"> 
+        </div>
+        <div>
+            <input id="win" type="radio" name="os" value="windows" checked>
+            <label for="win">Windows</label>
+        </div>
+        <div>
+            <input id="lin" type="radio" name="os" value="Linux">
+            <label for="lin">Linux</label>
+        </div>
+        <div>
+            <input id="mac" type="radio" name="os" value="Mac">
+            <label for="mac">Mac</label>
+        </div>
+         <br>
+         <hr>
+        <br>
+        <div>
+            <label>Color</label>
+            <input type="color" name="Color">
+         <br>
+            <label>Range</label>
+            <input type="range" name="range" min="0" max="100" step="20" value="0">
+         <br>
+            <label for="num">Number</label>
+            <input id="num" type="Number" name="Number" min="0" max="100" step="5" value="0">
+         <br>
+            <label>Username</label>
+            <input type="text" required placeholder="Username" name="un" value="Ahmed" readonly>
+         <br>
+            <label>Email</label>
+            <input type="email" required placeholder="Your Email" name="mail" value="ahmed@h.com" disabled> 
+        </div>
+        <div>     
+        <div> 
+            <label for="upl">Upload</label>
+            <input id="upl" type="file">
+        </div>
+        <hr>
+        <div>
+            <label for="ser">Search</label>
+            <input id="ser" type="search">
+        </div>
+        <hr>
+        <div>
+            <label for="Url">URL</label>
+            <input id="Url" type="url">
+        </div>
+        <hr>
+        <div>
+            <label for="date">Date</label>
+            <input id="date" type="date">
+        </div> 
+        <hr>
+        <label for="book">Choose Book</label>
+        <br>
+        <select name="book" id="book" multiple>
+        <optgroup label="Scientific books">
+            <option value="1">Book 1</option>
+            <option value="2">Book 2</option>
+            <option value="3" selected>Book 3</option>
+            <option value="4">Book 4</option>
+            <option value="5">Book 5</option>
+        </optgroup>
+        <optgroup label="Detective books">
+            <option value="6">Book 6</option>
+            <option value="7">Book 7</option>
+            <option value="8">Book 8</option>
+            <option value="9">Book 9</option>
+            <option value="10">Book 10</option>
+        </optgroup>
+        </select> 
+         <hr>
+            <label for="tex">Subject</label>
+            <br>
+            <textarea name="subject" id="tex" cols="40" rows="10" placeholder="text"></textarea>
+        
+        <hr>
+        <div>
+            <input id="win1" type="checkbox" name="os" value="windows" checked>
+            <label for="win1">Windows</label>
+        </div>
+        <div>
+            <input id="lin1" type="checkbox" name="os" value="Linux">
+            <label for="lin1">Linux</label>
+        </div>
+        <div>
+            <input id="mac1" type="checkbox" name="os" value="Mac">
+            <label for="mac1">Mac</label>
+        <br>
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Save">
+        </div>
+    </form>
+</body>
+
+</html>
