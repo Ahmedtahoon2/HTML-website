@@ -4,3 +4,7 @@ h1{
 body{
     background-color: white;
 }
+.text{
+    color: rgba(0, 0, 255,);
+    size: 20px;
+}
